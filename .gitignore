@@ -31,3 +31,5 @@ debug/
 
 internal/
 uv.lock
+
+.env

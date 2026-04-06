@@ -1,0 +1,27 @@
+{
+  "name": "meta-ads-mcp",
+  "version": "1.0.0",
+  "description": "A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for interacting with Meta Ads. Analyze, manage and optimize Meta advertising campaigns through an AI interface. Use an LLM to retrieve performance data, visualize ad creatives, and provide strategic insights for your ads on Facebook, Instagram, and other Meta platforms.",
+  "main": "worker.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeboard-co/meta-ads-mcp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pipeboard-co/meta-ads-mcp/issues"
+  },
+  "homepage": "https://github.com/pipeboard-co/meta-ads-mcp#readme",
+  "dependencies": {
+    "@cloudflare/containers": "^0.2.0"
+  }
+}

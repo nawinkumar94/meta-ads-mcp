@@ -1,0 +1,28 @@
+{
+  "name": "meta-ads-mcp",
+  "account_id": "968b2d94c41f28bd35044f4308f29101",
+  "main": "worker.js",
+  "compatibility_date": "2024-01-01",
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "META_ADS_MCP",
+        "class_name": "MetaAdsMCP"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["MetaAdsMCP"]
+    }
+  ],
+  "containers": [
+    {
+      "class_name": "MetaAdsMCP",
+      "image": "./Dockerfile",
+      "instance_type": "basic",
+      "max_instances": 1
+    }
+  ]
+}
