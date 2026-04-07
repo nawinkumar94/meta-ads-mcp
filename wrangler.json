@@ -3,6 +3,13 @@
   "account_id": "968b2d94c41f28bd35044f4308f29101",
   "main": "worker.js",
   "compatibility_date": "2024-01-01",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "meta-ads-api.fundingasiagroup.com",
+      "custom_domain": true
+    }
+  ],
   "durable_objects": {
     "bindings": [
       {

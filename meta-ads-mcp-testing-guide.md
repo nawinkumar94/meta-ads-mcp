@@ -381,6 +381,7 @@ echo "YOUR_APP_ID" | wrangler secret put META_APP_ID
 echo "YOUR_APP_SECRET" | wrangler secret put META_APP_SECRET
 echo "YOUR_ACCESS_TOKEN" | wrangler secret put META_ACCESS_TOKEN
 echo "YOUR_AD_ACCOUNT_ID" | wrangler secret put META_ADS_ACCOUNT_ID
+python3 -c "import uuid; print(uuid.uuid4())" | npx wrangler secret put DEV_API_TOKEN
 echo "1" | wrangler secret put META_ADS_DISABLE_CALLBACK_SERVER
 ```
 
